@@ -1,0 +1,17 @@
+{
+  "name"             : "bentools/solarium-updater",
+  "description"      : "An update handler for Solarium documents.",
+  "minimum-stability": "dev",
+  "license"          : "MIT",
+  "authors"          : [
+    {
+      "name": "Beno!t POLASZEK"
+    }
+  ],
+  "require"          : {
+    "solarium/solarium": "3.*"
+  },
+  "autoload": {
+    "psr-4": {"BenTools\\": "src/BenTools"}
+  }
+}
